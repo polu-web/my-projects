@@ -508,3 +508,56 @@ h3{
     border: 1px solid #454545;
     box-sizing: border-box;
 }
+
+.nav-links ul .hover-page a {
+    color: #f90101;
+}
+
+.fecilities-col {
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.fecilities-col:hover {
+    padding: 15px;
+    background: rgba(243, 243, 243, 0.859);
+    box-shadow: 0px 10px 15px #56565680;
+
+    h3 {
+        color: #f90101;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .fa {
+
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.icons .fa:hover {
+    background-color: #f90101;
+    color: white;
+    box-shadow: 0px 0px 10px #7001018c;
+}
+
+.contact-col span a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.contact-col span a h5:hover {
+    color: #f44336;
+}
